@@ -94,7 +94,7 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 
 
 ---
-<!-- Slide 5 -->
+<!-- Slide 6 -->
 <!--: .wrap -->
 ### Quelles sont les limites de la conteneurisation ?
 
@@ -110,18 +110,10 @@ Tout comme les VM, il est possible d'exploiter des failles pour prendre la main 
 ##### Exploitation de la solution
 La solution de conteneurisation est aussi complexe à gérer que le sont les solutions de virtualisation.
 
-{{% fontawesome bullhorn %}}<small> la conteneurisation ne résoud pas tous les misères de l'informatique !
+{{% fontawesome bullhorn %}}<small> la conteneurisation ne résoud pas tous les misères de l'informatique ! </small>
 
 ---
-<!-- Slide 6 -->
-<!--: .wrap -->
-### Quelles sont les limites de la conteneurisation ?
-En matière de conteneurisation, les outils arrivent petit à petit à maturité. C’est-à-dire que la conteneurisation et le support sur lequel elle s’appuie commencent (à l’intérieur du noyau Linux) à être complètement fiables. On n’observe plus les failles qui permettaient, il y a encore quelques années, de briser les protections et de s’introduire à l’intérieur d’un conteneur pour accéder frauduleusement aux ressources de la machine. Aujourd’hui, ce n’est plus possible parce que le code utilisé est abouti et que les ops sont bien mieux formés pour limiter les possibilités d’intrusion. Par exemple en limitant les droits sur les applications.
-
-Cependant, pour les orchestrateurs de conteneurs, il existe encore des limitations. Par exemple en matière de gestion de grands volumes de données, il reste des progrès à faire pour l’intégration avec les fournisseurs de cloud. Par ailleurs, de nombreuses applications à migrer vers le cloud ne peuvent pas bénéficier des avantages de l’orchestration des conteneurs pour le passage à à l’échelle et la portabilité. Il faudrait les réécrire pour les adapter à cette nouvelle approche, mais cela demanderait trop de temps.
-
----
-<!-- Slide N -->
+<!-- Slide 7 -->
 <!--: .wrap .text-landing bg=bg-black bg=left bgimage=https://cdn.pixabay.com/photo/2018/05/07/22/32/microphone-3381837_960_720.jpg -->
 # QUESTION ?
 
