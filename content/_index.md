@@ -36,6 +36,7 @@ Il sert donc de support pour un module d'enseignement de la conteneurisation aus
   <img alt="Screenshot" src="https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80">
 </figure>
 
+
 ---
 <!-- Slide 3 -->
 <!--: .wrap -->
@@ -45,7 +46,7 @@ C'est aussi un **processus** (ou ensemble de processus) **isolé** du reste du s
 Il est construit à partir d'une **image de conteneur**.<br>
 
 <!--: .flexblock gallery -->
-- {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/archi-container.svg" src="https://20100701.github.io/container/static/images/archi-container.svg" >}}{{< /gallery >}}
+- {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/container.svg" src="https://20100701.github.io/container/static/images/container.svg" >}}{{< /gallery >}}
 
 
 {{% fontawesome book-reader %}}<small>Il est possible d'avoir un aperçu de l'histoire des conteneurs en cliquant <a href=https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016>ici</a>.</small>
@@ -85,20 +86,31 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 - consommation de ressource (ex : cpu, ram)<br>
 - élasticité<br>
 - portabilité<br>
-- architecture applicative (ex : micro-service)<br>
+- architecture applicative (ex : distribuée)<br>
+- facilité d'intégration
+- cycle de vie de l'application
+
+<small>*Note : Au sein d'une entreprise l'utilisation de l'une ou l'autre de ces solutions peut aussi être liée à la stratégie de l'entreprise.*</small>
+
 
 ---
 <!-- Slide 5 -->
 <!--: .wrap -->
-### Pourquoi utiliser les conteneurs ?
+### Quelles sont les limites de la conteneurisation ?
 
-Comme ils n'incluent pas de systèmes d'exploitation complets, les conteneurs ne nécessitent que des ressources de calcul minimales, et leur installation est rapide et facile. Cette efficacité leur permet d'être déployés en clusters, avec des conteneurs individuels intégrant des composants d'applications complexes. Le fait de séparer les composants dune 'application en différents conteneurs permet aux développeurs d'actualiser ces composants sans réorganiser l'application tout entière.
+##### Ecosystème
+Aujourd'hui, l'écosystème autour des solutions de conteneurisation commence à peine à se stabiliser, certains arrivent à matûrité (fiabilité, fonctionnalités), mais du fait du grand nombre d'acteurs du marché impliqués cela devrait arriver dans les années à venir. 
 
-multiples systèmes d’exploitation, quels qu’ils soient. Ils garantissent que leur contenu est identique au départ et à l’arrivée, et qu’il est sécurisé, grâce à leur mise en isolation.
+###### Portabilité
+Tout comme les VM, il existe une limitation d'usage en fonction du système d'exploitation. Un conteneur Linux ne peut être directement utiliser sur une machine hôte Windows. 
 
-Ils servent à minimiser la complexité liée à la configuration et à l’administration applicatives, à accélérer les cycles de développement et de production applicatifs, et, grâce à leur flexibilité et à leur portabilité, ils constituent l’une des briques qui permettent de faire de l’« infrastructure as a service », c’est-à-dire d’automatiser les infrastructures IT.
+##### Sécurité
+Tout comme les VM, il est possible d'exploiter des failles pour prendre la main sur le système hôte en cas de compromission d'un conteneur.
 
-La conteneurisation propose une manière de virtualiser des ressources de manière légère, avec une isolation garantie par le système d’exploitation. Ces ressources sont ainsi plus facilement portables d’un système à un autre. C’est un puissant accélérateur de développement d’applications.
+##### Exploitation de la solution
+La solution de conteneurisation est aussi complexe à gérer que le sont les solutions de virtualisation.
+
+{{% fontawesome bullhorn %}}<small> la conteneurisation ne résoud pas tous les misères de l'informatique !
 
 ---
 <!-- Slide 6 -->
