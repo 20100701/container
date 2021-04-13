@@ -54,7 +54,7 @@ Il est construit à partir d'une **image de conteneur**.<br>
 ---
 <!-- Slide 4 -->
 <!--: .wrap -->
-#### Qu'est-ce que la conteneurisation ?
+### Qu'est-ce que la conteneurisation ?
 La conteneurisation est un type de virtualisation d'application au niveau du système d'exploitation.<br>
 Cela permet de lancer plusieurs conteneurs (applications) isolés les uns des autres sur une même machine hôte.<br>
 La conteneurisation est particulièrement bien adaptée au concept de micro-services, elle permet aussi de gérer la consommation des ressources au plus juste.<br>
@@ -115,18 +115,19 @@ La solution de conteneurisation est aussi complexe à gérer que le sont les sol
 ---
 <!-- Slide 7 -->
 <!--: .wrap .text-landing bg=bg-black bg=left bgimage=https://cdn.pixabay.com/photo/2018/05/07/22/32/microphone-3381837_960_720.jpg -->
-# QUESTION ?
+# **QUESTION ?**
 
 ---
 <!-- Slide X -->
 <!--: .wrap .text-landing ..aligncenter -->
-# Docker <a href=https://www.docker.com>{{% fontawesome docker %}} </a>
-
-
-
-
+# **Docker** <a href=https://www.docker.com>{{% fontawesome docker %}} </a>
 
 ---
 <!-- Slide X -->
 <!--: .wrap .text-landing ..aligncenter -->
-# Swarm : Docker clustering
+# **Swarm : Docker clustering**
+
+---
+<!-- Slide 23 -->
+<!--: .wrap .text-landing bg=bg-white bg=aligncenter bgimage=https://images.unsplash.com/photo-1583791031153-d55e79f7f115?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80 -->
+# **Thank you for your attention**
