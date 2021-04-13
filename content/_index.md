@@ -2,7 +2,7 @@
 title = "Container Overview"
 +++
 
-<!-- Slide 1 -->
+<!-- Slide TITLE -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://images.unsplash.com/photo-1565264316550-a1811f0c4c75?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80 -->
 
 {{< div class="content-center" >}}
@@ -11,7 +11,7 @@ title = "Container Overview"
 {{< /div >}}
 
 ---
-<!-- Slide 2 -->
+<!-- Slide ABOUT -->
 {{< div class="content-left" >}}
 
 #### Avant-propos
@@ -118,9 +118,28 @@ La solution de conteneurisation est aussi complexe à gérer que le sont les sol
 # **QUESTION ?**
 
 ---
-<!-- Slide X -->
+<!-- Slide 8 -->
 <!--: .wrap .text-landing ..aligncenter -->
 # **Docker** <a href=https://www.docker.com>{{% fontawesome docker %}} </a>
+
+---
+<!-- Slide 9 -->
+<!--: .wrap -->
+### Qu'est-ce que Docker ?
+<a href=https://www.docker.com>Docker</a> est une solution **Open Source** d'hébergement de conteneur (aka container) **multi-plateformes**.
+Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noyau Linux**. Docker utilise plusieurs fonctionnalités du noyau Linux pour garantir l'isolation entre les conteneurs Docker.
+
+<!--: .flexblock gallery -->
+- {{< gallery title="Docker Kernel Linux" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/1920px-Docker-linux-interfaces.svg.png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/650px-Docker-linux-interfaces.svg.png" >}}{{< /gallery >}}
+
+---
+<!-- Slide 10 -->
+<!--: .wrap -->
+### Docker, les premiers pas  {{% fontawesome walking %}}
+<small>Note : la doc officielle de Docker est bien faite ... </small><a href=https://docs.docker.com>{{% fontawesome book-open %}}</a>
+
+<!--: .flexblock gallery -->
+- {{< gallery title="use Docker" href="https://docs.docker.com/engine/images/architecture.svg" src="https://docs.docker.com/engine/images/architecture.svg" >}}{{< /gallery >}}
 
 ---
 <!-- Slide X -->
@@ -128,6 +147,6 @@ La solution de conteneurisation est aussi complexe à gérer que le sont les sol
 # **Swarm : Docker clustering**
 
 ---
-<!-- Slide 23 -->
+<!-- Slide END -->
 <!--: .wrap .text-landing bg=bg-white bg=aligncenter bgimage=https://images.unsplash.com/photo-1583791031153-d55e79f7f115?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80 -->
 # **Thank you for your attention**
