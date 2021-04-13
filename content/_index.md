@@ -45,7 +45,7 @@ C'est aussi un **processus** (ou ensemble de processus) **isolé** du reste du s
 Il est construit à partir d'une **image de conteneur**.<br>
 
 <!--: .flexblock gallery -->
-- {{< gallery title="2020" href="https://20100701.github.io/container/static/images/archi-container.svg" src="https://20100701.github.io/container/static/images/archi-container.svg" >}}{{< /gallery >}}
+- {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/archi-container.svg" src="https://20100701.github.io/container/static/images/archi-container.svg" >}}{{< /gallery >}}
 
 
 {{% fontawesome book-reader %}}<small>Il est possible d'avoir un aperçu de l'histoire des conteneurs en cliquant <a href=https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016>ici</a>.</small>
@@ -53,15 +53,31 @@ Il est construit à partir d'une **image de conteneur**.<br>
 ---
 <!-- Slide 4 -->
 <!--: .wrap -->
-#### Comment fonctionne la conteneurisation ?
+#### Qu'est-ce que la conteneurisation ?
+La conteneurisation est un type de virtualisation d'application au niveau du système d'exploitation.<br>
+Cela permet de lancer plusieurs conteneurs (applications) isolés les uns des autres sur une même machine hôte.<br>
+La conteneurisation est particulièrement bien adaptée au concept de micro-services, elle permet aussi de gérer la consommation des ressources au plus juste.<br>
+<br>
+Il existe plusieurs solutions de conteneurisation, voici quelques exemples :<br>
 
-
+<!--: .flexblock gallery -->
+- {{< gallery title="LXC" href="https://linuxcontainers.org/fr/" src="https://i2.wp.com/doc.courbeil.com/wp-content/uploads/2018/12/lxc1.png?w=650" >}}{{< /gallery >}}
+- {{< gallery title="Docker" href="https://www.docker.com" src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Docker-Logo-White-RGB_Vertical-BG_0.png?itok=8Tuac9I3" >}}{{< /gallery >}}
+- {{< gallery title="Fedora CoreOS" href="https://getfedora.org/en/coreos?stream=stable" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Fedora_CoreOS_logo.svg" >}}{{< /gallery >}}
+- {{< gallery title="Open VZ" href="https://openvz.org" src="http://static.openvz.org/openvz-logo-open-graph.png" >}}{{< /gallery >}}
+- {{< gallery title="Kubernetes" href="https://kubernetes.io/fr/" src="https://ml32ltopxlgp.i.optimole.com/j9-pdEk-NyyhK8p-/w:auto/h:auto/q:75/https://www.blackcreeper.com/wp-content/uploads/2020/04/kubernetes-logo-big.png" >}}{{< /gallery >}}
+- {{< gallery title="Apache Mesos" href="https://mesos.apache.org" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Apache_Mesos_Logo.svg/1200px-Apache_Mesos_Logo.svg.png" >}}{{< /gallery >}}
 
 
 ---
-<!-- Slide X -->
+<!-- Slide 5 -->
 <!--: .wrap -->
-### Conteneur vs Machine Virtuelle
+### Conteneur || Machine Virtuelle
+Les conteneurs et les machines virtuelles ne sont pas en concurrence, où ne devraient pas l'être. Ce sont deux solutions différentes dans la boîté à outil de l'architecte.
+Par contre il est vrai que les conteneurs vont prendre une partie significative des *workloads* qui aujourd'hui tournent sur des machines virtuelles.
+
+<!--: .flexblock gallery -->
+- {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/vm-vs-container.svg" src="https://20100701.github.io/container/static/images/vm-vs-container.svg" >}}{{< /gallery >}}
 
 ---
 <!-- Slide 5 -->
@@ -86,16 +102,19 @@ Cependant, pour les orchestrateurs de conteneurs, il existe encore des limitatio
 
 ---
 <!-- Slide N -->
-<!--: .wrap bg=bg-black bg=left bgimage=https://cdn.pixabay.com/photo/2018/05/07/22/32/microphone-3381837_960_720.jpg -->
+<!--: .wrap .text-landing bg=bg-black bg=left bgimage=https://cdn.pixabay.com/photo/2018/05/07/22/32/microphone-3381837_960_720.jpg -->
 # QUESTION ?
 
 ---
 <!-- Slide X -->
-<!--: .wrap .text-landing -->
+<!--: .wrap .text-landing ..aligncenter -->
 # Docker <a href=https://www.docker.com>{{% fontawesome docker %}} </a>
 
 
 
 
 
-
+---
+<!-- Slide X -->
+<!--: .wrap .text-landing ..aligncenter -->
+# Swarm : Docker clustering
