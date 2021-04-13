@@ -79,6 +79,14 @@ Par contre il est vrai que les conteneurs vont prendre une partie significative 
 <!--: .flexblock gallery -->
 - {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/vm-vs-container.svg" src="https://20100701.github.io/container/static/images/vm-vs-container.svg" >}}{{< /gallery >}}
 
+
+##### Critères de choix
+Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en fonction de certains critères, voici quelques exemples :<br>
+- consommation de ressource (ex : cpu, ram)<br>
+- élasticité<br>
+- portabilité<br>
+- architecture applicative (ex : micro-service)<br>
+
 ---
 <!-- Slide 5 -->
 <!--: .wrap -->
