@@ -110,7 +110,7 @@ Tout comme les VM, il est possible d'exploiter des failles pour prendre la main 
 ##### Exploitation de la solution
 La solution de conteneurisation est aussi complexe à gérer que le sont les solutions de virtualisation.
 
-{{% fontawesome bullhorn %}}<small> la conteneurisation ne résoud pas tous les misères de l'informatique ! </small>
+{{% fontawesome bullhorn %}}<small> la conteneurisation ne résoud pas tous les problèmes de l'informatique ! </small>
 
 ---
 <!-- Slide 7 -->
