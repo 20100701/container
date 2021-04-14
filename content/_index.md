@@ -170,12 +170,27 @@ RUN cat /somefile.txt
 <!--: .wrap -->
 ### Swarm <a href=https://docs.docker.com/engine/swarm/key-concepts/>{{% fontawesome book-open %}} </a>
 **Swarm** (aka swarmkit) est un développement distinct de Docker. Swarm permet la mise en <a href=https://en.wikipedia.org/wiki/Computer_cluster>cluster</a> de **Docker engines**.<br>
-Les rôles confiés à Swarm sont donc la **gestion et l'orchestration** des différents *Docker engines* qui composent le cluster.<br>
+Les rôles confiés à Swarm sont donc la **gestion** et **l'orchestration** des différents *Docker engines* qui composent le cluster.<br>
 
-Dans un **cluster Docker Swarm**, tous les noeuds sont des machines sur lesquelles sont installées un *Docker engine*, quelques uns fonctionnent comme **manager** et les autres comme **worker**.<br>
+Il est courant d'appeler **noeuds** (aka nodes) les éléments qui composent un cluster.<br>
+Dans le contexte Swarm les noeuds sont des instances de *Docker engine*, ils peuvent être de 2 types **manager** ou **worker**.
+
+###### Manager nodes
+Les noeuds *manager* sont des instances de *Docker engine* assurent la **gestion** du cluster ainsi que l'**orchestration** des *workloads* (conteneurs).
+Les noeuds *manager* permettent d'intéragir avec le cluster. 
+
+###### Worker nodes
+Les *Docker containers* sont exécutés sur les noeuds *worker*.
 
 <!--: .flexblock gallery -->
-- {{< gallery title="swarm cluster" href="https://docs.docker.com/engine/images/swarm.svg" src="https://docs.docker.com/engine/images/swarm.svg" >}}{{< /gallery >}}
+- {{< gallery title="swarm cluster" href="https://20100701.github.io/container/static/images/swarm.svg" src="https://20100701.github.io/container/static/images/swarm.svg" >}}{{< /gallery >}}
+
+---
+<!-- Slide 14 -->
+<!--: .wrap -->
+
+
+
 
 ---
 <!-- Slide END -->
