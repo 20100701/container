@@ -142,6 +142,25 @@ Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noy
 - {{< gallery title="use Docker" href="https://docs.docker.com/engine/images/architecture.svg" src="https://docs.docker.com/engine/images/architecture.svg" >}}{{< /gallery >}}
 
 ---
+<!-- Slide 11 -->
+<!--: .wrap -->
+#### Docker image <a href=https://docs.docker.com/engine/reference/commandline/image/>{{% fontawesome book-open %}}</a>
+Les images Docker sont des templates d'application (au sens large du terme) au format Docker, elles contiennent l'ensemble des instructions permettant à l'application de fonctionner sur le **Docker Engine**. Tous les **Docker containers** sont créés à partir d'une **Docker image**.
+
+Les images sont mises à disposition à travers de **Registry**, celle qui fait référence pour Docker est le <a href=https://hub.docker.com/search?q=&type=image>**Docker Hub**</a>.
+
+#### Dockerfile <a href=https://docs.docker.com/engine/reference/builder>{{% fontawesome book-open %}}</a>
+Comme son nom l'indique, **Dockerfile** est un fichier, il contient l'**ensemble des instructions** permettant au **Docker Engine** de créer une **Docker image**.
+
+~~~dockerfile
+# Exemple (minimaliste) d'un Dockerfile
+FROM busybox
+COPY somefile.txt .
+RUN cat /somefile.txt
+~~~
+<small>Les *best practices* relatives à la rédaction de Dockerfile sont <a href=https://docs.docker.com/develop/develop-images/dockerfile_best-practices>ici</a>.</small>
+
+---
 <!-- Slide X -->
 <!--: .wrap .text-landing ..aligncenter -->
 # **Swarm : Docker clustering**
