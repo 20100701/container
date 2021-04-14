@@ -161,9 +161,21 @@ RUN cat /somefile.txt
 <small>Les *best practices* relatives à la rédaction de Dockerfile sont <a href=https://docs.docker.com/develop/develop-images/dockerfile_best-practices>ici</a>.</small>
 
 ---
-<!-- Slide X -->
-<!--: .wrap .text-landing ..aligncenter -->
+<!-- Slide 12 -->
+<!--: .wrap .text-landing ..aligncenter bg=bg-black bg=aligncenter bgimage=https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png -->
 # **Swarm : Docker clustering**
+
+---
+<!-- Slide 13 -->
+<!--: .wrap -->
+### Swarm <a href=https://docs.docker.com/engine/swarm/key-concepts/>{{% fontawesome book-open %}} </a>
+**Swarm** (aka swarmkit) est un développement distinct de Docker. Swarm permet la mise en <a href=https://en.wikipedia.org/wiki/Computer_cluster>cluster</a> de **Docker engines**.<br>
+Les rôles confiés à Swarm sont donc la **gestion et l'orchestration** des différents *Docker engines* qui composent le cluster.<br>
+
+Dans un **cluster Docker Swarm**, tous les noeuds sont des machines sur lesquelles sont installées un *Docker engine*, quelques uns fonctionnent comme **manager** et les autres comme **worker**.<br>
+
+<!--: .flexblock gallery -->
+- {{< gallery title="swarm cluster" href="https://docs.docker.com/engine/images/swarm.svg" src="https://docs.docker.com/engine/images/swarm.svg" >}}{{< /gallery >}}
 
 ---
 <!-- Slide END -->
