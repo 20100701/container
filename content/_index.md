@@ -5,10 +5,12 @@ title = "Conteneurisation"
 <!-- Slide TITLE -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/1st_page.svg -->
 
+<!-- 
 {{< div class="content-center" >}}
 # **Container Overview**  
 [{{% fontawesome github %}} Github](https://20100701.github.io/container/)
 {{< /div >}}
+-->
 
 ---
 <!-- Slide ABOUT -->
