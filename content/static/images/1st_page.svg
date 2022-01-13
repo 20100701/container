@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1085.5999755859375 616.8000335693359" width="1085.5999755859375" height="616.8000335693359">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1085.5999755859375" height="616.8000335693359" fill="#ffffff"></rect><g transform="translate(41.20001220703125 37.2880505944929) rotate(0 71.81999999999994 28.5)"><text x="0" y="40" font-family="Virgil, Segoe UI Emoji" font-size="45.59999999999999px" fill="#0b7285" text-anchor="start" style="white-space: pre;" direction="ltr">ASRSI</text></g><g transform="translate(885.9999389648438 545.4000091552734) rotate(0 81.89999999999998 18)"><text x="0" y="26.00000000000002" font-family="Virgil, Segoe UI Emoji" font-size="28.800000000000015px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">2021-2022</text></g><g transform="translate(178.79998779296875 253.20008850097656) rotate(0 379.52171989109206 60.19999694824219)"><text x="0" y="84.39999389648439" font-family="Virgil, Segoe UI Emoji" font-size="94.22608217985736px" fill="#364fc7" text-anchor="start" style="white-space: pre;" direction="ltr">Conteneurisation</text></g><g transform="translate(36.4000244140625 497.1000213623047) rotate(0 126.88001861572269 41.600006103515625)"><text x="0" y="28.600006103515618" font-family="Virgil, Segoe UI Emoji" font-size="33.280004882812506px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">Alexandre Linte</text><text x="0" y="70.20001220703124" font-family="Virgil, Segoe UI Emoji" font-size="33.280004882812506px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">Gaëtan Allain</text></g><g stroke-linecap="round" transform="translate(10 10) rotate(0 532.7999877929688 298.40001678466797)"><path d="M1.57 0.91 C291.33 -7.64, 579.39 -6.35, 1065.04 0.68 M-0.1 0.2 C422.75 3.23, 846.23 3.29, 1065.04 -0.27 M1065.34 0.73 C1067.42 120.57, 1068.49 242.99, 1065.83 595.58 M1065.82 0 C1069.23 167.24, 1069.18 334.69, 1066.21 597.27 M1064.06 597.72 C829.04 602.73, 592.78 603.72, 1.3 596.12 M1065.67 596.94 C799.02 588.26, 533.64 588.78, -0.03 596.88 M-1.07 597.75 C-3.8 356.99, -2.46 118.98, -0.1 0.5 M0.12 596.88 C-2.75 425.86, -2.24 254.73, 0.36 0.06" stroke="#087f5b" stroke-width="4" fill="none"></path></g></svg>
