@@ -7,7 +7,30 @@ title = "Conteneurisation"
 
 ---
 <!-- Slide ABOUT -->
-<!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/about.svg -->
+{{< div class="content-left" >}}
+
+#### Avant-propos
+<small>
+*Ce contenu a pour objectif de faire découvrir les concepts de la conteneurisation. Certains aspects sont simplifiés dans le but de rester compréhensible par un public voulant appréhender ce sujet sans en devenir des experts.*
+</small>
+
+#### Contexte
+<small>
+Ce contenu a été créé pour les étudiants de la licence <a href="https://uniform.unicaen.fr/catalogue/formation/licences-pro/5236-licence-pro-metiers-informatique---administration-securite-systemes-et-reseaux-parcours-audit-securite-reseaux-sys-info?s=iut-caen&r=1291046129051">Audit et Sécurité des Réseaux et des Systèmes d'Information</a> (aka ASRSI) de l'<a href="http://www.unicaen.fr/">Université de Caen</a>.
+</small>
+
+#### Objectif
+<small>
+Ce contenu doit permettre aux étudiants d'appréhender les concepts de la conteneurisation ainsi que les solutions techniques misent en œuvre.<br>
+Il sert donc de support pour un module d'enseignement de la conteneurisation aussi bien pour les parties théoriques que pratiques. Il limite au maximum le temps passé sur la phase de déploiement des environnements afin de laissé le plus de temps possible à la compréhension de la conteneurisation et aux échanges entre étudiants et formateurs.
+</small>
+{{< /div >}}
+
+
+<figure class="content-right">
+  <img alt="Screenshot" src="https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80">
+</figure>
+
 
 ---
 <!-- Slide 3 -->
