@@ -1271,15 +1271,6 @@ figure[class*='text-pull-'] {
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2"); }
 
 /*=========================================
-2.2. Virgil font (excalidraw handwriting font)
-=========================================== */
-/* Regular */
-@font-face {
-  font-family: 'Virgil';
-  font-weight: 400;
-  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
-
-/*=========================================
 3. Header & Footer
 =========================================== */
 /* -- If you want an unique, global header/footer,read this:
