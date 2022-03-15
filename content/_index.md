@@ -11,7 +11,7 @@ title = "Conteneurisation"
 
 ---
 <!-- Slide 3 -->
-<!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/qu est ce qu un conteneur.svg -->
+<!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/slide_conteneur.svg -->
 
 
 ---
