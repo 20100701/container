@@ -794,7 +794,7 @@ body,
 input,
 select,
 textarea {
-  font-family: 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
+  font-family: 'Virgil', 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
   font-size: 62.5%; }
 
 body,
@@ -1273,10 +1273,32 @@ figure[class*='text-pull-'] {
 /*=========================================
 2.2. Virgil font (excalidraw handwriting font)
 =========================================== */
+.text-virgil,
+.bg-virgil {
+  font-family: 'Virgil'; }
+
+/* Ultra Light */
+@font-face {
+  font-family: 'Virgil';
+  font-weight: 100;
+  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
+
+/* Thin */
+@font-face {
+  font-family: 'Virgil';
+  font-weight: 200;
+  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
+
 /* Regular */
 @font-face {
   font-family: 'Virgil';
   font-weight: 400;
+  src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
+
+/* Bold */
+@font-face {
+  font-family: 'Virgil';
+  font-weight: bold;
   src: url("https://virgil.excalidraw.com/Virgil.woff2"); }
 
 /*=========================================
