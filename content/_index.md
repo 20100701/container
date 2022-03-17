@@ -6,7 +6,8 @@ title = "Conteneurisation"
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
 <!-- : .text-Virgil -->
 Gaëtan Allain / Alexandre Linte<br>
-# <!-- .bg-blue -->**Conteneurisation**<br>
+<!--: .wrap .text-landing ..aligncenter ..bg-blue -->
+# **Conteneurisation**<br>
 2021 - 2022<br>
 
 ---
