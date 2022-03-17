@@ -5,14 +5,34 @@ title = "Conteneurisation"
 <!-- Slide TITLE -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
 <!-- : .text-Virgil -->
-Gaëtan Allain / Alexandre Linte<br>
-<!--: .wrap .text-landing ..aligncenter ..bg-blue -->
+Alexandre Linte / Gaëtan Allain<br>
+<br>
 # **Conteneurisation**<br>
 2021 - 2022<br>
 
 ---
 <!-- Slide ABOUT -->
-<!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/about.svg -->
+<!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
+<!-- : .text-Virgil -->
+{{< div class="content-left" >}}
+
+#### Avant-propos
+<small>
+*Ce contenu a pour objectif de faire découvrir les concepts de la conteneurisation. Certains aspects sont simplifiés dans le but de rester compréhensible par un public voulant appréhender ce sujet sans en devenir des experts.*
+</small>
+
+#### Objectif
+<small>
+Ce contenu doit permettre aux étudiants d'appréhender les concepts de la conteneurisation ainsi que les solutions techniques misent en œuvre.<br>
+Il sert donc de support pour un module d'enseignement de la conteneurisation aussi bien pour les parties théorique que pratique. Il limite au maximum le temps passé sur la phase de déploiement des environnements afin de laissé le plus de temps possible à la compréhension de la conteneurisation et aux échanges entre étudiants et formateurs.
+</small>
+{{< /div >}}
+
+
+<figure class="content-right">
+  <img alt="Screenshot" src="https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80">
+</figure>
+
 
 ---
 <!-- Slide 3 -->
