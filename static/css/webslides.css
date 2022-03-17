@@ -1274,7 +1274,7 @@ figure[class*='text-pull-'] {
 2.2. Virgil font (excalidraw handwriting font)
 =========================================== */
 .text-virgil,
-.bg-virgil {
+.bg-black {
   font-family: 'Virgil'; }
 
 /* Ultra Light */
