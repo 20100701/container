@@ -3237,7 +3237,7 @@ Slides - Backgrounds <section class="bg-primary">
 .bg-virgil,
   [class*='bg-black'],
   [class*='bg-gradient-'] {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-shadow: 0 1px 0 #013; }
 
 .bg-light p {
