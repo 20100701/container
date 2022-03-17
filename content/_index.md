@@ -12,7 +12,6 @@ Alexandre Linte / Gaëtan Allain<br>
 
 ---
 <!-- Slide ABOUT -->
-<!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
 <!-- : .text-Virgil -->
 {{< div class="content-left" >}}
 
@@ -20,7 +19,7 @@ Alexandre Linte / Gaëtan Allain<br>
 <small>
 *Ce contenu a pour objectif de faire découvrir les concepts de la conteneurisation. Certains aspects sont simplifiés dans le but de rester compréhensible par un public voulant appréhender ce sujet sans en devenir des experts.*
 </small>
-
+<br><br><br>
 #### Objectif
 <small>
 Ce contenu doit permettre aux étudiants d'appréhender les concepts de la conteneurisation ainsi que les solutions techniques misent en œuvre.<br>
@@ -37,7 +36,17 @@ Il sert donc de support pour un module d'enseignement de la conteneurisation aus
 ---
 <!-- Slide 3 -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
-<!-- : .text-Virgil --> test handwriting
+<!-- : .text-Virgil -->
+### Qu'est ce qu'un conteneur ?
+Un conteneur est un package logiciel (application) qui contient l'**ensemble des fichiers** (<small><a href=https://en.wikipedia.org/wiki/Everything_is_a_file>*Everything is a file*</a></small>) qui lui permettent de fonctionner de manière isolée, en autonomie.<br>
+C'est aussi un **processus** (ou ensemble de processus) **isolé** du reste du système, il posséde ses propres ressources : cpu, ram, réseau, sytème de fichiers, ...
+Il est construit à partir d'une **image de conteneur**.<br>
+
+<!--: .flexblock gallery -->
+- {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/container.svg" src="https://20100701.github.io/container/static/images/container.svg" >}}{{< /gallery >}}
+
+
+{{% fontawesome book-reader %}}<small>Il est possible d'avoir un aperçu de l'histoire des conteneurs en cliquant <a href=https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016>ici</a>.</small>
 
 ---
 <!-- Slide 4 -->
