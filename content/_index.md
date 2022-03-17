@@ -5,9 +5,11 @@ title = "Conteneurisation"
 <!-- Slide TITLE -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
 <!-- : .text-Virgil -->
-<!-- : .headerClass -->Gaëtan Allain / Alexandre Linte
-# <!-- : .paragraphClass bg=aligncenter -->**Conteneurisation**
-<!-- : .foorterClass bg.alignright --> 2021 - 2022
+<!-- : .headerClass --><!-- : .alignleft --> Gaëtan Allain / Alexandre Linte
+
+# <!-- : .paragraphClass --><!-- : .aligncenter -->**Conteneurisation**
+
+<!-- : .foorterClass --> 2021 - 2022
 ---
 <!-- Slide ABOUT -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/about.svg -->
