@@ -45,11 +45,15 @@ C'est aussi un **processus** (ou ensemble de processus) **isolé** du reste du s
 Il est construit à partir d'une **image de conteneur**.<br>
 {{< /div >}}
 
+{{< div class="content-right" >}}
 <figure class="content-right">
   <img alt="Screenshot" src="https://20100701.github.io/container/static/images/container.svg">
 </figure>
+{{< /div >}}
 
-{{% fontawesome book-reader %}}<small>   Il est possible d'avoir un aperçu de l'histoire des conteneurs en cliquant <a href=https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016>ici</a>.</small>
+{{< div class="content-aligncenter" >}}
+{{% fontawesome book-reader %}}<small>Il est possible d'avoir un aperçu de l'histoire des conteneurs en cliquant <a href=https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016>ici</a>.</small>
+{{< /div >}}
 
 ---
 <!-- Slide 4 -->
