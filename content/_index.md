@@ -12,6 +12,7 @@ Alexandre Linte / Gaëtan Allain<br>
 
 ---
 <!-- Slide ABOUT -->
+<!--: .wrap -->
 <!-- : .text-Virgil -->
 {{< div class="content-left" >}}
 
@@ -35,7 +36,7 @@ Il sert donc de support pour un module d'enseignement de la conteneurisation aus
 
 ---
 <!-- Slide 3 -->
-<!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
+<!--: .wrap -->
 <!-- : .text-Virgil -->
 ### Qu'est ce qu'un conteneur ?
 Un conteneur est un package logiciel (application) qui contient l'**ensemble des fichiers** (<small><a href=https://en.wikipedia.org/wiki/Everything_is_a_file>*Everything is a file*</a></small>) qui lui permettent de fonctionner de manière isolée, en autonomie.<br>
