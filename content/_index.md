@@ -88,11 +88,11 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 <small>*Note : Au sein d'une entreprise l'utilisation de l'une ou l'autre de ces solutions peut aussi être liée à la stratégie de l'entreprise.*</small>
 
 ---
-<!-- Slide 5.1 -->
-<!--: .wrap bg=bg-white bg=aligncenter bgimage="https://20100701.github.io/container/static/images/vm-vs-container.svg" -->
+<!-- Slide 6 -->
+<!--: .wrap bg=bg-white bg=aligncenter bgimage=https://20100701.github.io/container/static/images/vm-vs-container.svg -->
 
 ---
-<!-- Slide 6 -->
+<!-- Slide 7 -->
 <!--: .wrap -->
 ### Quelles sont les limites de la conteneurisation ?
 
@@ -111,17 +111,17 @@ La solution de conteneurisation est aussi complexe à gérer que le sont les sol
 {{% fontawesome bullhorn %}}<small> la conteneurisation ne résoud pas tous les problèmes de l'informatique ! </small>
 
 ---
-<!-- Slide 7 -->
+<!-- Slide 8 -->
 <!--: .wrap .text-landing bg=bg-black bg=left bgimage=https://cdn.pixabay.com/photo/2018/05/07/22/32/microphone-3381837_960_720.jpg -->
 # **QUESTION ?**
 
 ---
-<!-- Slide 8 -->
+<!-- Slide 9 -->
 <!--: .wrap .text-landing ..aligncenter -->
 # **Docker** <a href=https://www.docker.com>{{% fontawesome docker %}} </a>
 
 ---
-<!-- Slide 9 -->
+<!-- Slide 10 -->
 <!--: .wrap -->
 ### Qu'est-ce que Docker ?
 <a href=https://www.docker.com>Docker</a> est une solution **Open Source** d'hébergement de conteneur (aka container) **multi-plateformes**.
@@ -131,7 +131,7 @@ Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noy
 - {{< gallery title="Docker Kernel Linux" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/1920px-Docker-linux-interfaces.svg.png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/650px-Docker-linux-interfaces.svg.png" >}}{{< /gallery >}}
 
 ---
-<!-- Slide 10 -->
+<!-- Slide 11 -->
 <!--: .wrap -->
 ### Docker, les premiers pas  {{% fontawesome walking %}}
 <small>Note : la doc officielle de Docker est bien faite ... </small><a href=https://docs.docker.com>{{% fontawesome book-open %}}</a>
@@ -140,7 +140,7 @@ Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noy
 - {{< gallery title="use Docker" href="https://docs.docker.com/engine/images/architecture.svg" src="https://docs.docker.com/engine/images/architecture.svg" >}}{{< /gallery >}}
 
 ---
-<!-- Slide 11 -->
+<!-- Slide 12 -->
 <!--: .wrap -->
 #### Docker image <a href=https://docs.docker.com/engine/reference/commandline/image/>{{% fontawesome book-open %}}</a>
 Les images Docker sont des templates d'application (au sens large du terme) au format Docker, elles contiennent l'ensemble des instructions permettant à l'application de fonctionner sur le **Docker Engine**. Tous les **Docker containers** sont créés à partir d'une **Docker image**.
@@ -159,12 +159,12 @@ RUN cat /somefile.txt
 <small>Les *best practices* relatives à la rédaction de Dockerfile sont <a href=https://docs.docker.com/develop/develop-images/dockerfile_best-practices>ici</a>.</small>
 
 ---
-<!-- Slide 12 -->
+<!-- Slide 13 -->
 <!--: .wrap .text-landing ..aligncenter bg=bg-black bg=aligncenter bgimage=https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png -->
 # **Swarm : Docker clustering**
 
 ---
-<!-- Slide 13 -->
+<!-- Slide 14 -->
 <!--: .wrap -->
 ### Swarm <a href=https://docs.docker.com/engine/swarm/key-concepts/>{{% fontawesome book-open %}} </a>
 **Swarm** (aka swarmkit) est un développement distinct de Docker. Swarm permet la mise en <a href=https://en.wikipedia.org/wiki/Computer_cluster>cluster</a> de **Docker engines**.<br>
@@ -184,7 +184,7 @@ Les *Docker containers* sont exécutés sur les noeuds *worker*.
 - {{< gallery title="swarm cluster" href="https://20100701.github.io/container/static/images/swarm.svg" src="https://20100701.github.io/container/static/images/swarm.svg" >}}{{< /gallery >}}
 
 ---
-<!-- Slide 14 -->
+<!-- Slide 15 -->
 <!--: .wrap -->
 
 
