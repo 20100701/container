@@ -3,10 +3,10 @@ title = "Conteneurisation"
 +++
 
 <!-- Slide TITLE -->
-<!--: .wrap ..slide-top ..align-center -->
+<!--: .wrap .text-landing ..aligncenter -->
 <!--: .text-Virgil -->
 Alexandre Linte / Gaëtan Allain
-<br><br><br>
+<br><br>
 # **Conteneurisation** <br>
 2021 - 2022<br>
 
