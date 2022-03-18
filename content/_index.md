@@ -3,10 +3,8 @@ title = "Conteneurisation"
 +++
 <!--: .text-Virgil -->
 <!-- Slide TITLE -->
-<!--: .wrap .header ..alignleft -->Alexandre Linte / Gaëtan Allain
 <!--: .wrap .text-landing ..aligncenter -->
-
-
+Alexandre Linte / Gaëtan Allain
 <br><br>
 # **Conteneurisation** <br>
 2021 - 2022<br>
@@ -77,8 +75,7 @@ Il existe plusieurs solutions de conteneurisation, voici quelques exemples :<br>
 Les conteneurs et les machines virtuelles ne sont pas en concurrence, où ne devraient pas l'être. Ce sont deux solutions différentes dans la boîte à outil du concepteur d'application.
 Par contre il est vrai que les conteneurs prennent une partie significative des *workloads* qui hier tournaient sur des machines virtuelles.
 
-<!--: .flexblock gallery -->
-- {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/vm-vs-container.svg" src="https://20100701.github.io/container/static/images/vm-vs-container.svg" >}}{{< /gallery >}}
+<!--: .wrap .img.alignleft.size-50 src="https://20100701.github.io/container/static/images/vm-vs-container.svg" -->
 
 
 ##### Critères de choix
