@@ -54,21 +54,19 @@ Il est construit à partir d'une **image de conteneur**.<br>
 ---
 <!-- Slide 4 -->
 <!--: .wrap -->
+<!-- : .text-Virgil -->
 ### Qu'est-ce que la conteneurisation ?
 La conteneurisation est un type de virtualisation d'application au niveau du système d'exploitation.<br>
 Cela permet de lancer plusieurs conteneurs (applications) isolés les uns des autres sur une même machine hôte.<br>
 La conteneurisation est particulièrement bien adaptée au concept de micro-services, elle permet aussi de gérer la consommation des ressources au plus juste.<br>
 <br>
 Il existe plusieurs solutions de conteneurisation, voici quelques exemples :<br>
-
-<!--: .flexblock gallery -->
-- {{< gallery title="LXC" href="https://linuxcontainers.org/fr/" src="https://i2.wp.com/doc.courbeil.com/wp-content/uploads/2018/12/lxc1.png?w=650" >}}{{< /gallery >}}
-- {{< gallery title="Docker" href="https://www.docker.com" src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Docker-Logo-White-RGB_Vertical-BG_0.png?itok=8Tuac9I3" >}}{{< /gallery >}}
-- {{< gallery title="Fedora CoreOS" href="https://getfedora.org/en/coreos?stream=stable" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Fedora_CoreOS_logo.svg" >}}{{< /gallery >}}
-- {{< gallery title="Open VZ" href="https://openvz.org" src="http://static.openvz.org/openvz-logo-open-graph.png" >}}{{< /gallery >}}
-- {{< gallery title="Kubernetes" href="https://kubernetes.io/fr/" src="https://ml32ltopxlgp.i.optimole.com/j9-pdEk-NyyhK8p-/w:auto/h:auto/q:75/https://www.blackcreeper.com/wp-content/uploads/2020/04/kubernetes-logo-big.png" >}}{{< /gallery >}}
-- {{< gallery title="Apache Mesos" href="https://mesos.apache.org" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Apache_Mesos_Logo.svg/1200px-Apache_Mesos_Logo.svg.png" >}}{{< /gallery >}}
-
+- <a href=https://linuxcontainers.org/lxc/introduction/>LXC</a> et <a href=https://linuxcontainers.org>plus</a> 
+- <a href=https://www.docker.com/>Docker</a>
+- <a href=https://getfedora.org/en/coreos?stream=stable>Fedora CoreOS</a>
+- <a href=https://openvz.org/>Open VZ</a>
+- <a href=https://kubernetes.io/fr/>Kubernetes (aka K8S)</a>
+- <a href=https://mesos.apache.org/>Mesos</a>
 
 ---
 <!-- Slide 5 -->
