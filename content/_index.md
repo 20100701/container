@@ -1,9 +1,10 @@
 +++
 title = "Conteneurisation"
 +++
-<!--: .text-Virgil -->
+
 <!-- Slide TITLE -->
 <!--: .wrap .text-landing ..aligncenter -->
+<!--: .text-Virgil -->
 Alexandre Linte / Gaëtan Allain
 <br><br>
 # **Conteneurisation** <br>
@@ -75,9 +76,6 @@ Il existe plusieurs solutions de conteneurisation, voici quelques exemples :<br>
 Les conteneurs et les machines virtuelles ne sont pas en concurrence, où ne devraient pas l'être. Ce sont deux solutions différentes dans la boîte à outil du concepteur d'application.
 Par contre il est vrai que les conteneurs prennent une partie significative des *workloads* qui hier tournaient sur des machines virtuelles.
 
-<!--: .wrap .img.alignleft.size-50 src="https://20100701.github.io/container/static/images/vm-vs-container.svg" -->
-
-
 ##### Critères de choix
 Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en fonction de certains critères, voici quelques exemples :<br>
 - consommation de ressource (ex : cpu, ram)<br>
@@ -89,6 +87,9 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 
 <small>*Note : Au sein d'une entreprise l'utilisation de l'une ou l'autre de ces solutions peut aussi être liée à la stratégie de l'entreprise.*</small>
 
+---
+<!-- Slide 5.1 -->
+<!--: .wrap bg=bg-white bg=aligncenter bgimage="https://20100701.github.io/container/static/images/vm-vs-container.svg" -->
 
 ---
 <!-- Slide 6 -->
