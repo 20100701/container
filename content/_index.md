@@ -61,12 +61,12 @@ Cela permet de lancer plusieurs conteneurs (applications) isolés les uns des au
 La conteneurisation est particulièrement bien adaptée au concept de micro-services, elle permet aussi de gérer la consommation des ressources au plus juste.<br>
 <br>
 Il existe plusieurs solutions de conteneurisation, voici quelques exemples :<br>
-- <a href=https://linuxcontainers.org/lxc/introduction/>LXC</a> et <a href=https://linuxcontainers.org>plus</a> 
-- <a href=https://www.docker.com/>Docker</a>
-- <a href=https://getfedora.org/en/coreos?stream=stable>Fedora CoreOS</a>
-- <a href=https://openvz.org/>Open VZ</a>
-- <a href=https://kubernetes.io/fr/>Kubernetes (aka K8S)</a>
-- <a href=https://mesos.apache.org/>Mesos</a>
+- <a href=https://linuxcontainers.org/lxc/introduction/>LXC</a> et <a href=https://linuxcontainers.org>plus</a><br>
+- <a href=https://www.docker.com/>Docker</a><br>
+- <a href=https://getfedora.org/en/coreos?stream=stable>Fedora CoreOS</a><br>
+- <a href=https://openvz.org/>Open VZ</a><br>
+- <a href=https://kubernetes.io/fr/>Kubernetes (aka K8S)</a><br>
+- <a href=https://mesos.apache.org/>Mesos</a><br>
 
 ---
 <!-- Slide 5 -->
