@@ -3,9 +3,8 @@ title = "Conteneurisation"
 +++
 
 <!-- Slide TITLE -->
+<!--: .wrap ..slide-top ..align-center -->
 <!--: .text-Virgil -->
-<!--: .slide-top -->
-<!--: .wrap ..align-center -->
 Alexandre Linte / Gaëtan Allain
 <br><br><br>
 # **Conteneurisation** <br>
