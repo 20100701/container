@@ -4,16 +4,17 @@ title = "Conteneurisation"
 
 <!-- Slide TITLE -->
 <!--: .wrap bg=bg-black bg=aligncenter bgimage=https://20100701.github.io/container/static/images/background.svg -->
-<!-- : .text-Virgil -->
-Alexandre Linte / Gaëtan Allain<br>
+<!--: .text-Virgil -->
+<!--: .slide-top .content-left --> Alexandre Linte / Gaëtan Allain
 <br>
 # **Conteneurisation**<br>
 2021 - 2022<br>
+<!-- .end .wrap -->
 
 ---
 <!-- Slide ABOUT -->
 <!--: .wrap -->
-<!-- : .text-Virgil -->
+<!--: .text-Virgil -->
 {{< div class="content-left" >}}
 
 #### Avant-propos
@@ -44,7 +45,7 @@ Un conteneur est un package logiciel (application) qui contient l'**ensemble des
 C'est aussi un **processus** (ou ensemble de processus) **isolé** du reste du système, il posséde ses propres ressources : cpu, ram, réseau, sytème de fichiers, ...<br>
 Il est construit à partir d'une **image de conteneur**.<br>
 <br><br><br><br><br>
-{{% fontawesome book-reader %}}  <small>Il est possible d'avoir un aperçu de l'histoire des conteneurs en cliquant <a href=https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016>ici</a>.</small>
+{{% fontawesome book-reader %}}  <small>Il est possible d'avoir un aperçu de l'histoire des conteneurs <a href=https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016>ici</a>.</small>
 {{< /div >}}
 
 <figure class="content-right">
@@ -65,15 +66,16 @@ Il existe plusieurs solutions de conteneurisation, voici quelques exemples :<br>
 - <a href=https://www.docker.com/>Docker</a><br>
 - <a href=https://getfedora.org/en/coreos?stream=stable>Fedora CoreOS</a><br>
 - <a href=https://openvz.org/>Open VZ</a><br>
-- <a href=https://kubernetes.io/fr/>Kubernetes (aka K8S)</a><br>
+- <a href=https://kubernetes.io/fr/>Kubernetes</a> (aka K8S)<br>
 - <a href=https://mesos.apache.org/>Mesos</a><br>
 
 ---
 <!-- Slide 5 -->
 <!--: .wrap -->
+<!-- : .text-Virgil -->
 ### Conteneur || Machine Virtuelle
-Les conteneurs et les machines virtuelles ne sont pas en concurrence, où ne devraient pas l'être. Ce sont deux solutions différentes dans la boîté à outil de l'architecte.
-Par contre il est vrai que les conteneurs vont prendre une partie significative des *workloads* qui aujourd'hui tournent sur des machines virtuelles.
+Les conteneurs et les machines virtuelles ne sont pas en concurrence, où ne devraient pas l'être. Ce sont deux solutions différentes dans la boîte à outil du concepteur d'application.
+Par contre il est vrai que les conteneurs prennent une partie significative des *workloads* qui hier tournaient sur des machines virtuelles.
 
 <!--: .flexblock gallery -->
 - {{< gallery title="archi container" href="https://20100701.github.io/container/static/images/vm-vs-container.svg" src="https://20100701.github.io/container/static/images/vm-vs-container.svg" >}}{{< /gallery >}}
