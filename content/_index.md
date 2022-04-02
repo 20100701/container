@@ -147,11 +147,7 @@ Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noy
 ### Docker, les premiers pas  {{% fontawesome walking %}}
 <small>Note : la doc officielle de Docker est bien faite ... </small><a href=https://docs.docker.com>{{% fontawesome book-open %}}</a>
 
-[<img class="alignright" src="https://docs.docker.com/engine/images/architecture.svg" alt="use Docker">](https://docs.docker.com/engine/images/architecture.svg")
-
----
-<!--: .flexblock gallery -->
-- {{< gallery title="use Docker" href="https://docs.docker.com/engine/images/architecture.svg" src="https://docs.docker.com/engine/images/architecture.svg" >}}{{< /gallery >}}
+[<img class="aligncenter" src="https://docs.docker.com/engine/images/architecture.svg" alt="use Docker">](https://docs.docker.com/engine/images/architecture.svg")
 
 ---
 <!-- Slide 12 -->
@@ -180,6 +176,8 @@ RUN cat /somefile.txt
 ---
 <!-- Slide 14 -->
 <!--: .wrap -->
+
+|||v
 ### Swarm <a href=https://docs.docker.com/engine/swarm/key-concepts/>{{% fontawesome book-open %}} </a>
 **Swarm** (aka swarmkit) est un développement distinct de Docker. Swarm permet la mise en <a href=https://en.wikipedia.org/wiki/Computer_cluster>cluster</a> de **Docker engines**.<br>
 Les rôles confiés à Swarm sont donc la **gestion** et **l'orchestration** des différents *Docker engines* qui composent le cluster.<br>
@@ -194,8 +192,9 @@ Les noeuds *manager* permettent d'intéragir avec le cluster.
 ###### Worker nodes
 Les *Docker containers* sont exécutés sur les noeuds *worker*.
 
-<!--: .flexblock gallery -->
-- {{< gallery title="swarm cluster" href="https://20100701.github.io/container/static/images/swarm.svg" src="https://20100701.github.io/container/static/images/swarm.svg" >}}{{< /gallery >}}
+|||
+
+[<img class="aligncenter" src="https://20100701.github.io/container/static/images/swarm.svg" alt="swarm cluster">](https://20100701.github.io/container/static/images/swarm.svg")
 
 ---
 <!-- Slide 15 -->
