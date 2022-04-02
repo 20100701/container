@@ -89,15 +89,23 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 
 ---
 <!-- Slide 6 -->
-<!--: .flexblock gallery -->
-- {{< gallery title="vm" href="https://20100701.github.io/container/static/images/vm.svg" src="https://20100701.github.io/container/static/images/vm.svg" >}}{{< /gallery >}}
 
-- {{< gallery title="container" href="https://20100701.github.io/container/static/images/container.svg" src="https://20100701.github.io/container/static/images/container.svg" >}}{{< /gallery >}}
+![](/static/images/vm.svg "VM")
+![](/static/images/container.svg "container")
+
 
 ---
 <!-- Slide 7 -->
 <!--: .wrap -->
 ### Quelles sont les limites de la conteneurisation ?
+
+
+<!--: .flexblock gallery -->
+- {{< gallery title="vm" href="https://20100701.github.io/container/static/images/vm.svg" src="https://20100701.github.io/container/static/images/vm.svg" >}}{{< /gallery >}}
+
+- {{< gallery title="container" href="https://20100701.github.io/container/static/images/container.svg" src="https://20100701.github.io/container/static/images/container.svg" >}}{{< /gallery >}}
+
+
 
 ##### Ecosystème
 Aujourd'hui, l'écosystème autour des solutions de conteneurisation commence à peine à se stabiliser, certains arrivent à matûrité (fiabilité, fonctionnalités), mais du fait du grand nombre d'acteurs du marché impliqués cela devrait arriver dans les années à venir. 
