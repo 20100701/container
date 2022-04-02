@@ -103,11 +103,6 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 <!--: .wrap -->
 ### Quelles sont les limites de la conteneurisation ?
 
-
-
-
-
-
 ##### Ecosystème
 Aujourd'hui, l'écosystème autour des solutions de conteneurisation commence à peine à se stabiliser, certains arrivent à matûrité (fiabilité, fonctionnalités), mais du fait du grand nombre d'acteurs du marché impliqués cela devrait arriver dans les années à venir. 
 
@@ -134,7 +129,8 @@ La solution de conteneurisation est aussi complexe à gérer que le sont les sol
 
 ---
 <!-- Slide 10 -->
-<!--: .wrap -->
+<!--: .wrap .card-50 .bg-white-->
+<!--: .flexblock content -->
 ### Qu'est-ce que Docker ?
 <a href=https://www.docker.com>Docker</a> est une solution **Open Source** d'hébergement de conteneur (aka container) **multi-plateformes**.
 Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noyau Linux**. Docker utilise plusieurs fonctionnalités du noyau Linux pour garantir l'isolation entre les conteneurs Docker.
