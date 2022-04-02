@@ -72,7 +72,7 @@ Il existe plusieurs solutions de conteneurisation, voici quelques exemples :<br>
 <!-- Slide 5 -->
 <!--: .wrap -->
 <!-- : .text-Virgil -->
-### Conteneur || Machine Virtuelle
+### Conteneur || Machine Virtuelle 1/2
 Les conteneurs et les machines virtuelles ne sont pas en concurrence, où ne devraient pas l'être. Ce sont deux solutions différentes dans la boîte à outil du concepteur d'application.
 Par contre il est vrai que les conteneurs prennent une partie significative des *workloads* qui hier tournaient sur des machines virtuelles.
 
@@ -89,9 +89,13 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 
 ---
 <!-- Slide 6 -->
+<!--: .wrap -->
+<!-- : .text-Virgil -->
+### Conteneur || Machine Virtuelle 2/2
+<!--: .flexblock gallery -->
+- {{< gallery title="vm" href="https://20100701.github.io/container/static/images/vm.svg" src="https://20100701.github.io/container/static/images/vm.svg" >}}{{< /gallery >}}
 
-![](/static/images/vm.svg "VM")
-![](/static/images/container.svg "container")
+- {{< gallery title="container" href="https://20100701.github.io/container/static/images/container.svg" src="https://20100701.github.io/container/static/images/container.svg" >}}{{< /gallery >}}
 
 
 ---
@@ -100,10 +104,7 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 ### Quelles sont les limites de la conteneurisation ?
 
 
-<!--: .flexblock gallery -->
-- {{< gallery title="vm" href="https://20100701.github.io/container/static/images/vm.svg" src="https://20100701.github.io/container/static/images/vm.svg" >}}{{< /gallery >}}
 
-- {{< gallery title="container" href="https://20100701.github.io/container/static/images/container.svg" src="https://20100701.github.io/container/static/images/container.svg" >}}{{< /gallery >}}
 
 
 
