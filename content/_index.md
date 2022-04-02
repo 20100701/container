@@ -129,11 +129,12 @@ La solution de conteneurisation est aussi complexe à gérer que le sont les sol
 
 ---
 <!-- Slide 10 -->
-<!--: .wrap .card-50 .bg-white-->
-<!--: .flexblock content -->
+|||v
 ### Qu'est-ce que Docker ?
 <a href=https://www.docker.com>Docker</a> est une solution **Open Source** d'hébergement de conteneur (aka container) **multi-plateformes**.
 Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noyau Linux**. Docker utilise plusieurs fonctionnalités du noyau Linux pour garantir l'isolation entre les conteneurs Docker.
+
+|||
 
 <!--: .flexblock gallery -->
 - {{< gallery title="Docker Kernel Linux" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/1920px-Docker-linux-interfaces.svg.png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/650px-Docker-linux-interfaces.svg.png" >}}{{< /gallery >}}
