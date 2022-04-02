@@ -91,6 +91,7 @@ Le choix d'utiliser une Machine Virtuelle (VM) ou un conteneur se fait en foncti
 <!-- Slide 6 -->
 <!--: .flexblock gallery -->
 - {{< gallery title="vm" href="https://20100701.github.io/container/static/images/vm.svg" src="https://20100701.github.io/container/static/images/vm.svg" >}}{{< /gallery >}}
+
 - {{< gallery title="container" href="https://20100701.github.io/container/static/images/container.svg" src="https://20100701.github.io/container/static/images/container.svg" >}}{{< /gallery >}}
 
 ---
