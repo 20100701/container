@@ -129,6 +129,7 @@ La solution de conteneurisation est aussi complexe à gérer que le sont les sol
 
 ---
 <!-- Slide 10 -->
+<!--： .wrap -->
 |||v
 ### Qu'est-ce que Docker ?
 <a href=https://www.docker.com>Docker</a> est une solution **Open Source** d'hébergement de conteneur (aka container) **multi-plateformes**.
