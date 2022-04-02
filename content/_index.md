@@ -147,6 +147,9 @@ Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noy
 ### Docker, les premiers pas  {{% fontawesome walking %}}
 <small>Note : la doc officielle de Docker est bien faite ... </small><a href=https://docs.docker.com>{{% fontawesome book-open %}}</a>
 
+[<img class="alignright" src="https://docs.docker.com/engine/images/architecture.svg" alt="use Docker">](https://docs.docker.com/engine/images/architecture.svg")
+
+---
 <!--: .flexblock gallery -->
 - {{< gallery title="use Docker" href="https://docs.docker.com/engine/images/architecture.svg" src="https://docs.docker.com/engine/images/architecture.svg" >}}{{< /gallery >}}
 
