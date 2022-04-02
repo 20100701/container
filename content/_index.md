@@ -136,10 +136,10 @@ Elle permet de mettre en oeuvre des conteneurs Docker en s'appuyant sur le **noy
 
 |||
 
-<!--: .flexblock gallery -->
-- {{< gallery title="Docker Kernel Linux" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/1920px-Docker-linux-interfaces.svg.png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/650px-Docker-linux-interfaces.svg.png" >}}{{< /gallery >}}
+[<img class="alignright" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/650px-Docker-linux-interfaces.svg.png" alt="Docker Kernel Linux">](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/1920px-Docker-linux-interfaces.svg.png")
 
----
+|||
+
 <!-- Slide 11 -->
 <!--: .wrap -->
 ### Docker, les premiers pas  {{% fontawesome walking %}}
